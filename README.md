@@ -1,22 +1,20 @@
-# FMF Gregify Employees
+# gregMod.GregifyEmployees (FMF Gregify Employees)
 
-This standalone mod replaces all employee visuals with Greg (employee 1) and supports a premium RGB Greg variant.
+Ersetzt Mitarbeiter-Visuals durch **Greg** (Basis-Modell), optional **RGB-Greg**-Variante; unterstützt fortlaufend neue Mitarbeiter aus anderen Mods.
 
-## Features
+| | |
+|:---|:---|
+| **Im Workspace** | Pfad `gregFramework/gregMod.GregifyEmployees/`. Überblick: [gregFramework README](../README.md). |
+| **Remote** | [`mleem97/gregModGregifyEmployees`](https://github.com/mleem97/gregModGregifyEmployees) |
 
-- Forces employee/technician models to Greg baseline model.
-- Replaces employee card portraits with `image.png`.
-- Works continuously to include employees introduced by other mods.
-- Registers a custom hire: `RGB Greg` (`greg_rgb_star`) costing `1 Billiarde`.
-- RGB Greg applies animated star-like color/emission overlay.
+## Voraussetzungen
 
-## Requirements
-
-- `FrikaModdingFramework.dll` must be loaded first.
-- Place `image.png` in the same folder as `FMF.GregifyEmployees.dll`.
+- `FrikaModdingFramework.dll` muss zuerst geladen sein.
+- `image.png` im gleichen Ordner wie `FMF.GregifyEmployees.dll`.
 
 ## Build
 
 ```powershell
-dotnet build .\mods\FMF.Mod.GregifyEmployees\FMF.GregifyEmployees.csproj
+Set-Location $PSScriptRoot
+dotnet build .\FMF.GregifyEmployees.csproj
 ```
