@@ -1,16 +1,16 @@
 # gregMod.GregifyEmployees (FMF Gregify Employees)
 
-Ersetzt Mitarbeiter-Visuals durch **Greg** (Basis-Modell), optional **RGB-Greg**-Variante; unterstützt fortlaufend neue Mitarbeiter aus anderen Mods.
+Replaces employee visuals with **Greg** (base model), optionally **RGB Greg** variants; keeps supporting new employees from other mods.
 
 | | |
 |:---|:---|
-| **Im Workspace** | Pfad `gregFramework/gregMod.GregifyEmployees/`. Überblick: [gregFramework README](../README.md). |
+| **In workspace** | Path `gregFramework/gregMod.GregifyEmployees/`. Overview: [gregFramework README](../README.md). |
 | **Remote** | [`mleem97/gregModGregifyEmployees`](https://github.com/mleem97/gregModGregifyEmployees) |
 
-## Voraussetzungen
+## Prerequisites
 
-- `FrikaModdingFramework.dll` muss zuerst geladen sein.
-- `image.png` im gleichen Ordner wie `FMF.GregifyEmployees.dll`.
+- `FrikaModdingFramework.dll` must load first.
+- `image.png` in the same folder as `FMF.GregifyEmployees.dll`.
 
 ## Build
 
